@@ -15,5 +15,5 @@ import string
 
 # Main program:
 n = int(input())
-str = "abcdefghijklmnopqrstuvwxyz"
-print(str[0:n])
+s = "abcdefghijklmnopqrstuvwxyz"
+print(s[0:n])
