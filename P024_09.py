@@ -16,8 +16,8 @@ import string
 # Main program:
 side = int(input())
 
-width = side/3
-height = side/5
+width = side//3
+height = side//5
 
 print(round(width * height))
 
