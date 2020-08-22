@@ -9,7 +9,7 @@ import string
 def rep_vowel(string): 
     lowerVowels = ('a', 'e', 'i', 'o', 'u')  
     for x in string: 
-        if x in lowerVowels: py
+        if x in lowerVowels:
             string = string.replace(x, "*") 
     vowels = ('A', 'E', 'I', 'O', 'U')
     for i in string:
