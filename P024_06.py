@@ -14,8 +14,8 @@ import string
 # Class and function definitions:
 
 # Main program:
-str = input()
-nums = str.split()
+s = input()
+nums = s.split()
 
 for i in range(3):
     nums[i] = int(nums[i])
