@@ -10,7 +10,7 @@ def bsearch(arr,l,h,x):
     if h>= l:
         mid= (h+l)// 2
         if arr[mid]== x:
-            return 2
+            return 1
         elif arr[mid]> x:
             return 1 + bsearch(arr,l,mid-1,x)
         else:
@@ -27,12 +27,12 @@ while True:
     break
 
 inp = inp.split(" ")
-for i in range(0,16):
+for i in range(0,15):
     inp[i]=int(inp[i])
 inp.sort()
 
 biggest =1;
-for i in range(0,16):
+for i in range(0,15):
     isPrime=True
     num=inp[i]
     if num > 1:
